@@ -1,0 +1,36 @@
+{
+  "name": "codex-workspace",
+  "version": "0.1.0",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "start": "node server/index.js"
+  },
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "diff": "^9.0.0",
+    "docx": "^9.16.0",
+    "dompurify": "^3.4.18",
+    "exceljs": "^4.4.0",
+    "htmlparser2": "^12.0.0",
+    "lucide": "^1.77.0",
+    "mammoth": "^1.13.0",
+    "marked": "^18.2.1",
+    "pdfkit": "^0.21.0",
+    "ws": "^8.23.0",
+    "yauzl": "^3.4.0"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "overrides": {
+    "exceljs": {
+      "uuid": "^11.1.1"
+    }
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gwolf0719/codex-workspace.git"
+  }
+}

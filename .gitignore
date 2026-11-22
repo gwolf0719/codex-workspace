@@ -1,0 +1,14 @@
+node_modules/
+.DS_Store
+.env
+.env.*
+!.env.example
+*.log
+*.pid
+*.sqlite
+*.sqlite-*
+.chat-ai-attachments/
+HANDOFF.md
+/login-password
+/assets/
+/workspaces/
